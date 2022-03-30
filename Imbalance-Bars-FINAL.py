@@ -1,4 +1,4 @@
-# removed comment
+# comment
 def delta(df):
     a = np.diff(df['Price'])
     a = np.insert(a, 0, 0)
